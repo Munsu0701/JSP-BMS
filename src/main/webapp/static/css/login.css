@@ -1,0 +1,47 @@
+ul, dl, ol {
+	list-style: none;
+	list-style-position: row;
+}
+
+.login_wrap {
+	border: 20px solid lightblue;
+	padding: 5px 20px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	width: 450px;
+	height: 400px;
+	margin-left: -225px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+.form {
+	width: 300px;
+	position: re
+}
+.form > div {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 10px;
+	align-content: center;
+}
+label { text-align: left; flex: 1; margin-top: 10px; }
+button {
+	width: 85px;
+	padding: 5px;
+}
+input {
+	padding: 5px;
+	flex: 2;
+}
+.loBtn {
+	float: left;
+	margin-right: 50px;
+}
+.joBtn {
+	float: right;
+	margin-left: 50px
+}
+

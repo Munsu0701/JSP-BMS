@@ -1,0 +1,112 @@
+* { box-sizing: border-box; outline: none; color: #212121; }
+html { font-size: 13px; }
+body { margin: 0; }
+a { text-decoration: none; }
+ul, ol { list-style: none; margin: 0; padding: 0; }
+dl, dt, dd { margin: 0; padding: 0; }
+input[type="text"], 
+input[type="password"], 
+input[type="email"], 
+input[type="number"] { border: 1px solid #d5d5d5; height: 40px; padding: 0 10px; border-radius: 3px; width: 100%; }
+
+.layout_width { max-width: 1100px; width: 100%; margin: 0 auto; }
+.dn { display: none !important;}
+
+ul, dl, ol {
+	list-style: none;
+	list-style-position: row;
+}
+
+header .top-menu { background-color: #f8f8f8; border-bottom: 1px solid #d5d5d5; }
+header .top-menu > div { text-align: right; padding: 10px; }
+header .top-menu > div a { margin-left: 10px; }
+header .logo {text-align: center; padding: 50px 0; font-size: 3rem; font-weight: bold; }
+header .logo a { width: 250px; height: 250px; }
+header .logo a img { width: 250px; height: 250px; }
+
+.submenu_wrap {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+	border-bottom: 1px solid black;
+	margin-bottom: 20px
+}
+.submenu_wrap .btn_wrap button {
+	width: 100px;
+	height: 100px
+}
+.list_title {
+	width: 100%;
+}
+.list_title .list_wrap {
+	display: flex;
+	width: 100%;
+	padding: 0;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: center;
+}
+.list_title .list_wrap .list_sub {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+.list_title .list_wrap .list_sub div {
+	border: 1px solid blue;
+	width: 100%;
+	text-align: center;
+}
+#layer_dim { 
+	background:rgba(0,0,0, 0.7); 
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+	z-index: 100;  
+	cursor: pointer; 
+}
+
+#layer { 
+	width: 450px; 
+	height: 450px;  
+	z-index: 101; 
+	position: fixed; 
+	left: calc(50% - 225px); 
+	top: calc(50% - 225px); 
+	background-color: #ffffff; 
+	border-radius: 10px; 
+}
+#frmUpdate {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+}
+#rental_dim { 
+	background:rgba(0,0,0, 0.7); 
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+	z-index: 100;  
+	cursor: pointer; 
+}
+
+#layer_rental { 
+	width: 700px; 
+	height: 500px;  
+	z-index: 101; 
+	position: fixed; 
+	left: calc(50% - 350px); 
+	top: calc(50% - 250px); 
+	background-color: #ffffff; 
+	border-radius: 10px; 
+}
+
+footer { border-top: 2px solid #212121; background-color: #f8f8f8; text-align: center; padding: 50px 0; font-size: 1.2rem;}
