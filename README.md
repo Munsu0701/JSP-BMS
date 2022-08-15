@@ -13,13 +13,19 @@ JSP를 이용하여 도서 관리 시스템을 만들어 보았다.
 
 # 그 외 기능들
 
-책 추가
+도서 추가
 ![localhost_8080_bms_main (1)](https://user-images.githubusercontent.com/105355765/184600045-60f8efa3-946c-46a8-a86a-1e081e48d2ca.png)
+
+도서 정보 수정
+![localhost_8080_bms_main;jsessionid=5644BB4F7E6FFE7EBA16E9CB9EAEE29E (1)](https://user-images.githubusercontent.com/105355765/184601255-bfb5e841-09c0-4eb4-bc11-60509c91c85f.png)
+
+도서 대여 하기
+![localhost_8080_bms_main;jsessionid=5644BB4F7E6FFE7EBA16E9CB9EAEE29E](https://user-images.githubusercontent.com/105355765/184601291-55c353f8-5630-4e33-95a1-035ce0e7b40d.png)
 
 학생 추가
 ![localhost_8080_bms_main (2)](https://user-images.githubusercontent.com/105355765/184600123-6b917837-3d14-4711-8500-1f874be596a8.png)
 
-반납 하기
+도서 반납 하기
 ![localhost_8080_bms_main (3)](https://user-images.githubusercontent.com/105355765/184600201-6a9c5c0a-3c63-4792-a345-a7af7d0c6b7c.png)
 
 총 학생 목록
